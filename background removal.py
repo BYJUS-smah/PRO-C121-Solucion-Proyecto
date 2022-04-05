@@ -10,10 +10,10 @@ camera = cv2.VideoCapture(0)
 camera.set(3 , 640)
 camera.set(4 , 480)
 
-# Cargar la imagen montada.
+# Cargar la imagen de la montaña.
 mountain = cv2.imread('mount everest.jpg')
 
-# Ajustar el tamaño de la imagen caragada a 640 X 480.
+# Ajustar el tamaño de la imagen de la montaña a 640 X 480.
 mountain = cv2.resize(mountain , (640 , 480))
 
 while True:
