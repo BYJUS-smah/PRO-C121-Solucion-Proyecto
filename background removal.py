@@ -49,7 +49,7 @@ while True:
         # Mostrar la imagen final.
         cv2.imshow('frame' , final_image)
 
-        # Esoprar 1ms antes de mostrar otro cuadro.
+        # Esperar 1ms antes de mostrar otro cuadro.
         code = cv2.waitKey(1)
         if code  ==  32:
             break
